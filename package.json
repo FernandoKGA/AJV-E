@@ -1,0 +1,11 @@
+{
+  "name": "AJV-E",
+  "version": "1.0.0",
+  "repository": "https://github.com/FernandoKGA/AJV-E.git",
+  "author": "FernandoKGA <fernando.kga@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "ajv": "^6.12.0",
+    "ajv-errors": "^1.0.1"
+  }
+}

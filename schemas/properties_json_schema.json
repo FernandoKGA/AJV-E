@@ -1,0 +1,16 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema",
+    "title": "Properties verification.",
+    "type": "object",
+    "properties": {
+        "user": {
+            "type": "string",
+            "description": "Username."
+        }
+    },
+    "errorMessage":{
+        "properties":{
+            "user": "Username must be a string."
+        }
+    }
+}

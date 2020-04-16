@@ -1,0 +1,14 @@
+{
+    "$schema": "http://json-schema.org/draft-06/schema",
+    "title": "Type verification",
+    "type": "object",
+    "properties": {
+        "user_id": {
+            "type": "string",
+            "description": "A simple id string."
+        }
+    },
+    "errorMessage": {
+        "type": "This JSON must be an object."
+    }
+}
